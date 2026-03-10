@@ -1,0 +1,130 @@
+{
+    "performance": [
+        {
+        "id": 1,
+        "name": "Larte Tesla",
+        "price": "$89,990",
+        "image": "Images/Larte-Tesla.webp",
+        "rating": 4.5,
+        "tag": "Electric Performance"
+        },
+        {
+        "id": 2,
+        "name": "BMW M4 Competition",
+        "price": "$74,700",
+        "image": "Images/BMW-M4_Competition.webp",
+        "rating": 5,
+        "tag": "Sport Coupe"
+        },
+        {
+        "id": 3,
+        "name": "Ford Capri",
+        "price": "$55,300",
+        "image": "Images/Ford_capri.webp",
+        "rating": 4,
+        "tag": "American Muscle"
+        },
+        {
+        "id": 4,
+        "name": "Porsche 911 Turbo S",
+        "price": "$204,000",
+        "image": "Images/Porsche-911_Turbo.webp",
+        "rating": 5,
+        "tag": "High Performance",
+        "category": "performance"
+        },
+        {
+            "id": 5,
+            "name": "Chevrolet Corvette Z06",
+            "price": "$110,000",
+            "image": "Images/Chevrolet-Corvette.webp",
+            "rating": 4.5,
+            "tag": "Sport Coupe",
+            "category": "performance"
+        },
+        {
+            "id": 6,
+            "name": "Ford Mustang GT",
+            "price": "$55,300",
+            "image": "Images/Ford-Mustang_Shelby.webp",
+            "rating": 4,
+            "tag": "American Muscle",
+            "category": "performance"
+        }
+    ],
+    "luxury": [
+        
+    {
+        "id": 7,
+        "name": "Lamborghini Huracan EVO",
+        "price": "$261,000",
+        "image": "Images/Lamborghini-Huracan.webp",
+        "rating": 5,
+        "tag": "Exotic Performance",
+        "category": "performance"
+    },
+    {
+        "id": 8,
+        "name": "McLaren 720S",
+        "price": "$299,000",
+        "image": "Images/McLaren-720S.webp",
+        "rating": 5,
+        "tag": "Supercar",
+        "category": "performance"
+    },
+    {
+        "id": 9,
+        "name": "Aston Martin Vantage",
+        "price": "$150,000",
+        "image": "Images/Aston_Martin-Vantage.webp",
+        "rating": 4.5,
+        "tag": "Grand Tourer",
+        "category": "performance"
+    },
+    {
+        "id": 10,
+        "name": "Ford Mustang Shelby GT500",
+        "price": "$85,000",
+        "image": "Images/Ford-Mustang_Shelby_GT500.webp",
+        "rating": 4,
+        "tag": "Muscle Car",
+        "category": "performance"
+    },
+    {
+        "id": 11,
+        "name": "Rolls-Royce Ghost",
+        "price": "$330,000",
+        "image": "Images/Rolls-Royce-Ghost.webp",
+        "rating": 5,
+        "tag": "Luxury Sedan",
+        "category": "luxury"
+    },
+    {
+        "id": 12,
+        "name": "Bentley Continental GT",
+        "price": "$230,000",
+        "image": "Images/Bentley-Continental_GT.webp",
+        "rating": 4.5,
+        "tag": "Grand Tourer",
+        "category": "luxury"
+    },
+    {
+        "id": 13,
+        "name": "Mercedes-Maybach S-Class",
+        "price": "$200,000",
+        "image": "Images/Mercedes-Benz-S-Class.webp",
+        "rating": 5,
+        "tag": "Ultra Luxury",
+        "category": "luxury"
+    },
+    {
+        "id": 14,
+        "name": "Nissan GT-R Nismo",
+        "price": "$210,000",
+        "image": "Images/Nissan-GTR.webp",
+        "rating": 4.5,
+        "tag": "Super Sport",
+        "category": "performance"
+    }
+    ]
+}

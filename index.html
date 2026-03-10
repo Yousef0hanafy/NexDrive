@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexDrive | Car Marketplace</title>
+    <meta name="description" content="NexDrive - Buy, Sell & Explore Cars in One Place. Discover the best deals on new and used vehicles.">
+    <meta name="keywords" content="cars, buy cars, sell cars, car marketplace, car deals, NexDrive">
+
+    <!-- Favicon -->
+    <link rel="icon" href="Images/ND_Logo.webp" type="image/png" sizes="32x32">
+    <!-- Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Core CSS -->
+    <link rel="preload" href="Images/Road.webp" as="image" fetchpriority="high">
+    <link rel="preload" href="Images/Road_mobile.webp" as="image" fetchpriority="high">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="Css/style-mini.css">
+    
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Yousef Hanafy",
+        "url": "https://github.com/Yousef0hanafy",
+        "sameAs": [
+            "https://github.com/Yousef0hanafy",
+            "https://www.linkedin.com/in/youssef-hanafy-7986342a8"
+        ],
+        "jobTitle": "Front-End Developer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Freelance"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Al-Azhar University"
+        },
+        "knowsAbout": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Responsive Design",
+            "UI/UX"
+        ]
+        }
+    </script>
+    <script src="JS/script.js" defer></script>
+    
+</head>
+
+<body>
+    <div id="theme-toggle" class="fas fa-moon"></div>
+    <header class="header">
+        <div class="menu-btn" id="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+        <a href="#home" class="logo" aria-label="NexDrive Home"><span>Nex</span>Drive</a>
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#vehicles" class="nav-link">Vehicles</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#feature" class="nav-link">Featured</a>
+            <a href="#review" class="nav-link">Reviews</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <div class="header-icons">
+                <div id="login-btn">
+                    <i class="far fa-user"></i>
+                    <button class="btn">login</button>
+                </div>
+        </div>
+    </header>
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="close-login-btn"></i>
+        <form action="#" method="post">
+            <h3>user login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>forget your password <a href="#">Click Here</a></p>
+            <input type="submit" value="login now" class="btn">
+            <div class="buttons">
+                <a href="#" class="btn">Google</a>
+                <a href="#" class="btn">Facebook</a>
+            </div>
+            <p>dont have an account <a href="#">Register Now</a></p>
+        </form>
+    </div>
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <h1 class="home-parallax" data-speed="-2">
+            Drive Your <span>Future</span>
+        </h1>
+        <img src="Images/car_lam.webp" alt="Luxury Car Experience" class="home-parallax" data-speed="5" fetchpriority="high" loading="eager">
+        <a href="#vehicles" class="btn home-parallax" data-speed="7">
+            Browse Cars
+        </a>
+    </section>
+
+    <!-- Icons Section -->
+    <section class="icons-container">
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="content">
+                <h3>120+</h3>
+                <p>global locations</p>
+            </div>
+        </div>
+        
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>8,500+</h3>
+                <p>cars sold</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-users"></i>
+            <div class="content">
+                <h3>5,000+</h3>
+                <p>happy clients</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-bolt"></i>
+            <div class="content">
+                <h3>350+</h3>
+                <p>new arrivals</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vehicle Section -->
+    <section class="vehicle" id="vehicle">
+        <h1 class="heading">
+            Popular <span>Vehicles</span>
+        </h1>
+        <div class="swiper vehicle-slider">
+            <div class="swiper-wrapper" id="vehicleWrapper">
+            <!-- Slides will be injected here by JS -->
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h1 class="heading">
+            our <span>Services</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3>Car Marketplace</h3>
+                <p>Buy and sell verified vehicles with transparent pricing and trusted dealers.</p>
+                <a href="#" class="btn">Explore</a>
+                </div>
+
+                <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>Vehicle Inspection</h3>
+                <p>Professional inspection reports to ensure quality and safety before purchase.</p>
+                <a href="#" class="btn">Learn More</a>
+                </div>
+
+                <div class="box">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Car Insurance</h3>
+                <p>Flexible insurance plans designed to protect you on every journey.</p>
+                <a href="#" class="btn">Get Quote</a>
+                </div>
+
+                <div class="box">
+                <i class="fas fa-car-battery"></i>
+                <h3>Battery Replacement</h3>
+                <p>Fast and reliable battery replacement with warranty support.</p>
+                <a href="#" class="btn">Book Now</a>
+                </div>
+
+                <div class="box">
+                <i class="fas fa-gas-pump"></i>
+                <h3>Oil Change</h3>
+                <p>Certified oil change service to keep your engine running smoothly.</p>
+                <a href="#" class="btn">Schedule</a>
+                </div>
+
+                <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Our support team is available anytime to assist you with your needs.</p>
+                <a href="#" class="btn">Contact</a>
+                </div>
+
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="feature" id="feature">
+        <h1 class="heading"><span>Performance</span> Cars</h1>
+        <div class="swiper performance-slider">
+            <div class="swiper-wrapper">
+                <!-- Performance vehicles will be inserted here by JS -->
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <h1 class="heading"><span>Luxury</span> Cars</h1>
+        <div class="swiper luxury-slider">
+            <div class="swiper-wrapper">
+                <!-- Luxury vehicles will be inserted here by JS -->
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- New Letter Section -->
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <h3 class="newsletter-title">Get Exclusive Updates</h3>
+            <p class="newsletter-desc">
+                Join our newsletter to stay ahead with the latest car launches, special deals, and industry news.
+            </p>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="Enter your email address" class="newsletter-input" required>
+                <input type="submit" class="newsletter-btn" value="Subscribe Now">
+            </form>
+            <p class="newsletter-success" id="newsletterSuccess">Thank you for subscribing!</p>
+        </div>
+    </section>
+
+    <!-- Review Section -->
+    <section class="review" id="review">
+        <h1 class="heading">Client <span>Reviews</span></h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper" id="reviews-wrapper">
+                <!-- Reviews will be injected here -->
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> us</h1>
+
+        <div class="row">
+            <iframe class="map" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.1574041142564!2d31.2357116!3d30.0444196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAyJzM5LjkiTiAzMcKwMTQnMDguNiJF!5e0!3m2!1sen!2seg!4v1645523456789!5m2!1sen!2seg" 
+                allowfullscreen="" loading="lazy" title="Company Location on Google Maps"></iframe>
+
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="your name" class="box" required>
+                    <input type="email" placeholder="your email" class="box" required>
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="your number" class="box" required>
+                    <input type="text" placeholder="subject" class="box">
+                </div>
+                <textarea placeholder="your message" cols="30" rows="10" class="box" required></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>our branches</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Cairo, Egypt</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Alexandria, Egypt</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Giza, Egypt</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Mansoura, Egypt</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Aswan, Egypt</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fas fa-arrow-right"></i> Home</a>
+                <a href="#vehicle"><i class="fas fa-arrow-right"></i> Vehicles</a>
+                <a href="#services"><i class="fas fa-arrow-right"></i> Services</a>
+                <a href="#featured"><i class="fas fa-arrow-right"></i> Featured</a>
+                <a href="#reviews"><i class="fas fa-arrow-right"></i> Reviews</a>
+                <a href="#contact"><i class="fas fa-arrow-right"></i> Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="tel:+201100475722"><i class="fas fa-phone"></i> +20 1100475722</a>
+                <a href="tel:+201098056358"><i class="fas fa-phone"></i> +20 1098056358</a>
+                <a href="mailto:youssefhanafy325@gmail.com" class="mail"><i class="fas fa-envelope"></i>youssefhanafy325@gmail.com</a>
+                <a href="#"><i class="fas fa-clock"></i> 7:00am - 10:00pm</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Zahraa Madinit Nacr, Cairo</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/youssef.hanafy.23683/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://www.linkedin.com/in/youssef-hanafy-7986342a8/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="https://wa.me/+201100475722" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+                <a href="https://m.me/youssef.hanafy.23683" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-messenger"></i> messenger</a>    
+            </div>
+        </div>
+
+        <div class="created">
+            &copy; 2026 created by <span>Eng.Yousef Hanafy</span> | all rights reserved
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- <script src="JS/script.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Ali Hassan",
+        "image": "./Images/man_1.webp",
+        "rating": 5,
+        "comment": "NexDrive made buying my car simple and stress-free. The platform is smooth and very professional."
+    },
+    {
+        "id": 2,
+        "name": "Mohamed Samer",
+        "image": "./Images/man_8.webp",
+        "rating": 4.5,
+        "comment": "Amazing experience! Great selection of cars and excellent customer support."
+    },
+    {
+        "id": 3,
+        "name": "Omar kamal",
+        "image": "./Images/man_6.webp",
+        "rating": 4,
+        "comment": "Very clean UI and easy navigation. I found my dream car in minutes."
+    },
+    {
+        "id": 4,
+        "name": "Sarah Ahmed",
+        "image": "./Images/girl_1.webp",
+        "rating": 5,
+        "comment": "Highly recommended! Transparent pricing and modern design."
+    },
+    {
+        "id": 5,
+        "name": "Ghad Essam",
+        "image": "./Images/man_3.webp",
+        "rating": 4.5,
+        "comment": "Professional service and smooth buying process from start to finish."
+    }
+]

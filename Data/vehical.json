@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Tesla Model S",
+        "price": "$89,990",
+        "image": "Images/Tesla-Model_S.webp",
+        "type": "Electric",
+        "year": "2025",
+        "transmission": "Automatic",
+        "drive": "AWD",
+        "speed": "155 mph"
+    },
+    {
+        "name": "BMW X5",
+        "price": "$65,500",
+        "image": "Images/BMW_X5.webp",
+        "type": "Petrol",
+        "year": "2024",
+        "transmission": "Automatic",
+        "drive": "RWD",
+        "speed": "155 mph"
+    },
+    {
+        "name": "Audi Q7",
+        "price": "$72,300",
+        "image": "Images/Audi-SQ7.webp",
+        "type": "Petrol",
+        "year": "2025",
+        "transmission": "Automatic",
+        "drive": "AWD",
+        "speed": "148 mph"
+    },
+    {
+        "name": "Mercedes-Benz GLE",
+        "price": "$78,900",
+        "image": "Images/Mercedes-Benz-GLE.webp",
+        "type": "Petrol",
+        "year": "2025",
+        "transmission": "Automatic",
+        "drive": "AWD",
+        "speed": "155 mph"
+    },
+    {
+        "name": "Ford Mustang",
+        "price": "$58,200",
+        "image": "Images/Ford-Mustang.webp",
+        "type": "Petrol",
+        "year": "2024",
+        "transmission": "Automatic",
+        "drive": "RWD",
+        "speed": "155 mph"
+    }
+]
