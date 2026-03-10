@@ -79,7 +79,7 @@ themeToggle.onclick = () => {
 
 
 const vehicleWrapper = document.getElementById("vehicleWrapper");
-    fetch("../Data/vehical.json")
+    fetch("./Data/vehical.json")
     .then(res => res.json())
     .then(vehicles => {
         vehicles.forEach(vehicle => {
@@ -124,7 +124,7 @@ const vehicleWrapper = document.getElementById("vehicleWrapper");
     });
 
 
-fetch('../Data/feature-car.json')
+fetch('./Data/feature-car.json')
     .then(res => res.json())
     .then(data => {
         const performanceSlider = document.querySelector('.performance-slider .swiper-wrapper');
@@ -205,7 +205,7 @@ newsletterForm.addEventListener("submit", function (e) {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("../Data/reviews.json")
+    fetch("./Data/reviews.json")
     .then(res => {
         if (!res.ok) throw new Error("Failed to load reviews");
         return res.json();
